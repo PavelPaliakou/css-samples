@@ -1,0 +1,34 @@
+:root {
+    --card-height: 200px;
+}
+
+.four-of-hearts {
+    width: calc(var(--card-height) * 2/3);
+    height: var(--card-height);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    padding: 0.5rem;
+    color: red;
+}
+
+.four-hearts {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.small-heart-symbol {
+    font-size: 1.25rem;
+}
+
+.small-heart-symbol>p:first-child {
+    padding-left: 2px;
+}
+
+.revert-heart {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,27 @@
+:root {
+    --france-flag-height: 200px;
+}
+
+.france-flag-box {
+    width: calc(var(--france-flag-height) * 3/2);
+    height: var(--france-flag-height);
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* 
+.stripe {
+    flex-grow: 1;
+} */
+
+.blue {
+    background-color: blue;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}

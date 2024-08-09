@@ -1,0 +1,20 @@
+:root {
+    --japanese-flag-height: 300px;
+}
+
+.japanese-flag-box {
+    width: calc(var(--japanese-flag-height) * 3/2);
+    height: var(--japanese-flag-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.red-circle {
+    width: calc(var(--japanese-flag-height) * 3/5);
+    height: calc(var(--japanese-flag-height) * 3/5);
+    border-radius: 100%;
+    background-color: red;
+}

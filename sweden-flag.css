@@ -1,0 +1,28 @@
+:root {
+    --sweden-flag-height: 300px;
+}
+
+.sweden-flag-box {
+    width: calc(var(--sweden-flag-height) * 8/5);
+    height: var(--sweden-flag-height);
+    display: flex;
+    background-color: blue;
+    position: relative;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.vertical {
+    width: calc(var(--sweden-flag-height) * 1/5);
+    height: 100%;
+    position: absolute;
+    left: calc(var(--sweden-flag-height) * 8/5 * 5/16);
+}
+
+.horizontal {
+    width: 100%;
+    height: calc(var(--sweden-flag-height) * 1/5);
+    align-self: center;
+}

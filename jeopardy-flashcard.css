@@ -1,0 +1,38 @@
+.jeopardy-flashcard-box {
+   height: 200px;
+   width: 350px;
+   background-color: blue;
+   color: white;
+   padding: 2rem;
+   margin: 2rem;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   text-transform: uppercase;
+   transition: transform 2s;
+   transform-style: preserve-3d;
+}
+
+.jeopardy-flashcard-box:hover {
+    transform: rotateY(180deg);
+}
+
+.card-back {
+    display: none;
+}
+
+.jeopardy-flashcard-box:hover .card-front {
+    display: none;
+}
+
+.jeopardy-flashcard-box:hover .card-back {
+    display: block;
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    backface-visibility: hidden;
+}

@@ -1,0 +1,21 @@
+:root {
+    --germany-flag-height: 200px;
+}
+
+.germany-flag-box {
+    width: calc(var(--germany-flag-height) * 3/2);
+    height: var(--germany-flag-height);
+    display: grid;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}

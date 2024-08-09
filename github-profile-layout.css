@@ -1,0 +1,51 @@
+.profile-box{
+    max-width: 400px;
+    min-width: 250px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.profile-info {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.profile-info h3, p {
+    padding: 0;
+    margin: 0;
+}
+
+.profile-info p {
+    color: rgb(157, 157, 157);
+}
+
+.profile-description {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.edit-button {
+    padding: 10px;
+    width: 100%;
+    border-color: rgb(78, 78, 78);
+    border-radius: 5px;
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: rgb(93, 93, 93);
+}

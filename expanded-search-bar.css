@@ -1,0 +1,31 @@
+.search-container {
+    width: 50%;
+}
+
+.hide {
+    display: none;
+}
+
+.search-bar {
+    width: 33%;
+    min-width: 320px;
+    height: auto;
+    padding: 0.5rem;
+    border: 1 px solid #bbb;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.search-bar:focus {
+    width: 100%;
+    border-color: #3a71ca;
+}
+
+.search-bar::placeholder {
+    font-weight: 200;
+}
+
+
+.search-bar:focus::placeholder {
+    color: transparent;
+}

@@ -1,0 +1,30 @@
+.circle-target {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-target1 {
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+}
+
+.circle-target2 {
+    width: 15rem;
+    height: 15rem;
+    background-color: blue;
+}
+
+.circle-target3 {
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+}
+
+.circle-target4 {
+    width: 5rem;
+    height: 5rem;
+    background-color: yellow;
+}

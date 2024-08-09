@@ -1,0 +1,31 @@
+:root {
+    --card-height: 200px;
+}
+
+.ace-of-spades {
+    width: calc(var(--card-height) * 2/3);
+    height: var(--card-height);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    padding: 1rem;
+}
+
+.small-spade-symbol {
+    font-size: 1.5rem;
+}
+
+.small-spade-symbol > p:first-child {
+    padding-left: 2px;
+}
+
+.revert-spade {
+    transform: rotate(180deg);
+}
+
+.big-spade-symbol {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

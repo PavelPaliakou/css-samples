@@ -1,0 +1,31 @@
+:root {
+    --niger-flag-height: 200px;
+}
+
+.niger-flag-box {
+    width: calc(var(--niger-flag-height) * 7/6);
+    height: var(--niger-flag-height);
+    display: grid;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: green;
+}
+
+.niger-red-circle {
+    width: calc(var(--niger-flag-height) / 3 * 0.85);
+    height: 85%;
+    border-radius: 100%;
+    background-color: red;
+}

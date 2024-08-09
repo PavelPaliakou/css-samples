@@ -1,0 +1,28 @@
+:root {
+    --switzerland-flag-height: 300px;
+}
+
+.switzerland-flag-box {
+    width: var(--switzerland-flag-height);
+    height: var(--switzerland-flag-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    position: relative;
+}
+
+.white {
+    background-color: white;
+}
+
+.vertical {
+    width: calc(var(--switzerland-flag-height) * 3/16);
+    height: calc(var(--switzerland-flag-height) * 5/8);
+}
+
+.horizontal {
+    width: calc(var(--switzerland-flag-height) * 5/8);
+    height: calc(var(--switzerland-flag-height) * 3/16);
+    position: absolute;
+}

@@ -1,0 +1,27 @@
+:root {
+    --madagascar-flag-height: 200px;
+}
+
+.madagascar-flag-box {
+    width: calc(var(--madagascar-flag-height) * 3/2);
+    height: var(--madagascar-flag-height);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid black;
+}
+
+.horizontal-stripes {
+    display: grid;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
