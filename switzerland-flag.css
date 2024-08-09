@@ -16,12 +16,12 @@
     background-color: white;
 }
 
-.vertical {
+.switzerland-flag-vertical {
     width: calc(var(--switzerland-flag-height) * 3/16);
     height: calc(var(--switzerland-flag-height) * 5/8);
 }
 
-.horizontal {
+.switzerland-flag-horizontal {
     width: calc(var(--switzerland-flag-height) * 5/8);
     height: calc(var(--switzerland-flag-height) * 3/16);
     position: absolute;

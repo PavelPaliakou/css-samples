@@ -14,14 +14,14 @@
     background-color: yellow;
 }
 
-.vertical {
+.sweden-flag-vertical {
     width: calc(var(--sweden-flag-height) * 1/5);
     height: 100%;
     position: absolute;
     left: calc(var(--sweden-flag-height) * 8/5 * 5/16);
 }
 
-.horizontal {
+.sweden-flag-horizontal {
     width: 100%;
     height: calc(var(--sweden-flag-height) * 1/5);
     align-self: center;
